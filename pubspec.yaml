@@ -1,0 +1,49 @@
+name: inside_trainning
+description: 'A new Flutter project.'
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+    sdk: ^3.6.0-216.1.beta
+
+dependencies:
+    cupertino_icons: ^1.0.8
+    device_info_plus: ^11.1.1
+    dio: ^5.7.0
+    equatable: ^2.0.7
+    flutter:
+        sdk: flutter
+    flutter_clean_architecture: ^6.0.1
+    flutter_form_builder: ^9.5.0
+    flutter_local_notifications: ^18.0.1
+    flutter_localizations:
+        sdk: flutter
+    flutter_secure_storage: ^9.2.2
+    flutter_svg: ^2.0.15
+    form_builder_validators: ^11.0.0
+    hive: ^2.2.3
+    hive_flutter: ^1.1.0
+    intl: ^0.19.0
+    isar_flutter_libs: ^4.0.0-dev.13
+    jwt_decode: ^0.3.1
+    local_auth: ^2.3.0
+    localization: ^2.1.1
+    logger: ^2.5.0
+    logging: ^1.3.0
+    package_info_plus: ^8.1.1
+    path_provider: ^2.1.5
+    pie_chart: ^5.4.0
+    provider: ^6.1.2
+    uuid: ^4.5.1
+
+dev_dependencies:
+    flutter_lints: 5.0.0
+    flutter_test:
+        sdk: flutter
+
+flutter:
+    uses-material-design: true
+
+flutter_intl:
+    enabled: true
+    main_locale: 'es_ES' # Optional. Sets the main locale used for generating localization files. Provided value should comply with ISO-639-1 and ISO-3166-1 (e.g. "en", "en_GB"). Default: es_ES
